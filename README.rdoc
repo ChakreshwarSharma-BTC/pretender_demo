@@ -1,0 +1,56 @@
+== README
+
+Steps to run the code
+1. Install redis
+sudo apt-get install redis-server
+2. apt-get install libnotify-bin
+3.bundle install
+4.rake db:migrate
+5.rails s
+6.open another terminal & execute the below command
+notify_me --ssh-host localhost --ssh-port 22 --ssh-user your_user_name
+
+
+This README would normally document whatever steps are necessary to get the
+application up and running.
+
+Things you may want to cover:
+
+
+rails g scaffold Product name price:integer
+
+
+
+notify_me --ssh-host localhost --ssh-port 22 --ssh-user chakreshwar
+
+
+http://stackoverflow.com/questions/11150808/can-a-web-app-give-desktop-notification
+
+apt-get install libnotify-bin
+
+Redis install
+sudo apt-get install redis-server
+#sudo service redis-server status
+apt-get install libnotify-bin
+
+* Ruby version
+
+* System dependencies
+
+* Configuration
+
+* Database creation
+
+* Database initialization
+
+* How to run the test suite
+
+* Services (job queues, cache servers, search engines, etc.)
+
+* Deployment instructions
+
+* ...
+
+
+Please feel free to use a different markup language if you do not plan to run
+<tt>rake doc:app</tt>.
